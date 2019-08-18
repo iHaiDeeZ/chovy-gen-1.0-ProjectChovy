@@ -39,14 +39,16 @@ if((strlen(Aid))==16){
   	strupr (Aid2);
 	printf("Your AID is %s\n",Aid2);
 	snprintf(buf, sizeof(buf), "chovy-gen.exe  %s EBOOT.pbp ",Aid2);      
-	
+
 	system(buf);
+	getchar();
 	}
 
 else{
 		 k=4;
   	SetConsoleTextAttribute(hConsole, k);
 	printf("The number of characters is insufficient to be an AiD");
+	getchar();
 	 return 0;
 
 }
