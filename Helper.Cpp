@@ -16,7 +16,7 @@ int main ()
   printf ("***Welcome to chovy-gen by @dots_tb and Motoharu***\n\n");
 	k=15;
 SetConsoleTextAttribute(hConsole, k);
-  printf("This file is used to verify EBOOT.pbp files on the Vita to prevent tampering and is also used for version checking.\n\n");
+  printf("This file is used to verify EBOOT.pbp files on the Vita to prevent tampering and is also used for version checking \n\nTo generate a __sce_ebootpbp, you must have obtained your AID. One method of obtaining your AID is to copy it from an existing __sce_ebootpbp at offset 0x40 to 0x48 from a hex editor.\n\n");
   printf("\n\n***This Tool made by ");
   	 k=4;
   	SetConsoleTextAttribute(hConsole, k);
